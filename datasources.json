@@ -13,5 +13,12 @@
   "mail": {
     "defaultForType": "mail",
     "connector": "mail"
+  },
+  "mongodb_dev": { 
+  "host": "127.0.0.1", 
+  "database": "devDB", 
+  "port": 27017, 
+  "debug": true,
+  "connector": "mongodb"
   }
 }
